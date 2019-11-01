@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /*border: 1px solid red !important;*/
 }
 
 html, body {
@@ -66,9 +67,43 @@ p {
     line-height: 1.4;
 }
 
+/* HOME PAGE STARTS HERE*/
+
+/* Home Page - Header Starts Here*/
+
+.home-header{
+    display: flex;
+    flex-wrap: wrap;
+	margin: 5% auto 3%;
+	word-spacing: 85px;
+	width: 70%;
+    align-items: baseline;
+}
+
+.home-header img{
+    padding-top: 4%;
+}
+
+header nav a{
+    font-size: 14px;
+	color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header img{
+    margin-right: 5%;
+}
+
+/* Home Page - Middle Content Starts Here*/
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container .top-content img{
+    padding-bottom: 3%;
 }
 
 .top-content {
@@ -84,6 +119,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*Home Page - Middle Contents Starts Here*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,16 +138,58 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+.one{
+    background-color: teal;
+}
+
+.two{
+    background-color: gold;
+}
+
+.three{
+    background-color: cadetblue;
+}
+
+.four{
+    background-color: coral;
+}
+
+.five{
+    background-color: crimson;
+}
+
+.six{
+    background-color: forestgreen;
+}
+
+.seven{
+    background-color: darkorchid;
+}
+
+.eight{
+    background-color: hotpink;
+}
+
+.nine{
+    background-color: indigo;
+}
+
+.ten{
+    background-color: dodgerblue;
+}
+
+/*Home Page - Bottom Content Starts Here*/
 
 .bottom-content {
     display: flex;
@@ -131,6 +210,8 @@ footer {
     background: black;
 }
 
+/* Home Page - Footer Starts Here*/
+
 footer nav {
     width: 60%;
     display: flex;
@@ -144,3 +225,78 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ABOUT PAGE STARTS HERE*/
+
+/* About Page - Header Starts Here*/
+
+.about-header{
+    display: flex;
+    flex-wrap: wrap;
+	margin: auto;
+	word-spacing: 85px;
+	width: 70%;
+    align-items: baseline;
+}
+
+.about-header img{
+    padding-top: 4%;
+}
+
+/* About Page - Top Content Starts Here*/
+
+.container-about-page{
+    font-weight: bold;
+}
+
+.about-top{
+    width: 65%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+    margin: auto;
+    
+    
+    
+}
+
+/* About Page - Middle Content Starts Here*/
+
+.about-middle-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+}
+.about-content{
+    width: 45%;
+    margin: auto;
+    border-bottom: 1px dashed black;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+
+.about-button{
+    height: 40px;
+    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 16px;    
+}
+
+.about-content img{
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+/* About Page - Bottom Content Starts Here*/
+
+.about-bottom-content{
+    width: 65%;
+    margin: 2% auto 3.5%;
+}
+
