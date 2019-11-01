@@ -71,12 +71,17 @@ p {
 
 /* Home Page - Header Starts Here*/
 
-header{
+.home-header{
     display: flex;
+    flex-wrap: wrap;
 	margin: 5% auto 3%;
 	word-spacing: 85px;
 	width: 70%;
     align-items: baseline;
+}
+
+.home-header img{
+    padding-top: 4%;
 }
 
 header nav a{
@@ -205,6 +210,8 @@ footer {
     background: black;
 }
 
+/* Home Page - Footer Starts Here*/
+
 footer nav {
     width: 60%;
     display: flex;
@@ -217,4 +224,78 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* ABOUT PAGE STARTS HERE*/
+
+/* About Page - Header Starts Here*/
+
+.about-header{
+    display: flex;
+    flex-wrap: wrap;
+	margin: auto;
+	word-spacing: 85px;
+	width: 70%;
+    align-items: baseline;
+}
+
+.about-header img{
+    padding-top: 4%;
+}
+
+/* About Page - Top Content Starts Here*/
+
+.container-about-page{
+    font-weight: bold;
+}
+
+.about-top{
+    width: 65%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+    margin: auto;
+    
+    
+    
+}
+
+/* About Page - Middle Content Starts Here*/
+
+.about-middle-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+}
+.about-content{
+    width: 45%;
+    margin: auto;
+    border-bottom: 1px dashed black;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+
+.about-button{
+    height: 40px;
+    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 16px;    
+}
+
+.about-content img{
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+/* About Page - Bottom Content Starts Here*/
+
+.about-bottom-content{
+    width: 65%;
+    margin: 2% auto 3.5%;
 }
